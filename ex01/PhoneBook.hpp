@@ -6,7 +6,7 @@
 /*   By: abarahho <abarahho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/07 17:11:59 by abarahho          #+#    #+#             */
-/*   Updated: 2025/04/14 15:25:54 by abarahho         ###   ########.fr       */
+/*   Updated: 2025/04/15 14:40:48 by abarahho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ private:
 	bool		full;
 	void		displayContactList() const;
 	void		displayContactDetails(const Contact &c) const;
+	int			checkIndex() const;
 	std::string	formatField(const std::string& field) const;
 public:
 	PhoneBook();

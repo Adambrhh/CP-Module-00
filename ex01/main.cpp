@@ -6,7 +6,7 @@
 /*   By: abarahho <abarahho@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/07 17:12:42 by abarahho          #+#    #+#             */
-/*   Updated: 2025/04/14 15:59:42 by abarahho         ###   ########.fr       */
+/*   Updated: 2025/04/16 10:49:49 by abarahho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ int main()
 		{
 			system("clear");
 			displayHelp();
+			std::cout << "Command not found" << std::endl;
 		}
 	}
 	system("clear");
